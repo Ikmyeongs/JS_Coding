@@ -10,8 +10,8 @@ rl.on("line", (line) => {
 });
 
 rl.on("close", () => {
-	const n = parseInt(input[0]);
-    const numbers = input[1].split(' ').map(Number);
+	let n = parseInt(input[0]);
+    let numbers = input[1].split(' ').map(Number);
     let min = numbers[0];
     let max = numbers[0];
     
