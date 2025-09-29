@@ -44,7 +44,6 @@ function solution(input) {
       }
     }
     dfs(1); // 시작 위치는 1번 국가로 잡음. 어짜피 결국 모두 순회함.
-      
-    console.log(count); // 비행기 탄 횟수 반환.
+    console.log(count); // 케이스 수 만큼 for문 돌아서 카운트가 출력될 것.
   }
 }
